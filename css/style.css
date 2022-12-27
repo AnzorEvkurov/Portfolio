@@ -70,8 +70,11 @@ body {
 .portfolio__item {
     width: 450px;
     height: 350px;
-    @media (max-width: 768px;) {
-        margin-bottom: 40px;
+    margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+    .portfolio__item {
+        margin-bottom: 30px;
     }
 }
 .portfolio__item-box {
