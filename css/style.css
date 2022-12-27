@@ -70,10 +70,14 @@ body {
 .portfolio__item {
     width: 450px;
     height: 350px;
+    @media (max-width: 768px;) {
+        margin-bottom: 40px;
+    }
 }
 .portfolio__item-box {
     height: 200px;
     overflow: hidden;
+
 }
 .portfolio__item-box-text {
     padding: 30px 0px 30px 0px;
