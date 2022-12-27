@@ -1,0 +1,116 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:16px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../fonts/gilroy-regular.woff2) format('woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../fonts/gilroy-bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 700;
+  }
+
+
+body {
+    background-color: #d9d9d9;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.about {
+    padding: 100px;
+}
+.about__title {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: rgb(86, 68, 68);
+    font-size: 32px;
+    text-align: center;
+}
+.about__author {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: rgb(40, 36, 36);
+    font-size: 32px;
+    text-align: center;
+}
+.portfolio {
+    padding-bottom: 100px;
+}
+.portfolio__items {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.portfolio__item {
+    width: 450px;
+    height: 350px;
+}
+.portfolio__item-box {
+    height: 200px;
+    overflow: hidden;
+}
+.portfolio__item-box-text {
+    padding: 30px 0px 30px 0px;
+    border: 1px solid black;
+    border-radius: 0px 0px 20px 20px;
+}
+.portfolio__link {
+    height: 200px;
+}
+.portfolio__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.portfolio__item-title {
+    display: inherit;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    color: rgb(40, 36, 36);
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+    transition: all .3s;
+}
+.portfolio__item-text {
+    display: inherit;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    color: rgb(40, 36, 36);
+    font-size: 16px;
+    text-align: center;
+    transition: all .3s;
+}
+.portfolio__item-title:hover {
+    color: rgb(207, 129, 28);
+}
+.portfolio__item-text:hover {
+    color: rgb(207, 129, 28);
+}
