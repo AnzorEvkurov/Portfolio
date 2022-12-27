@@ -107,6 +107,7 @@ body {
     font-size: 16px;
     text-align: center;
     transition: all .3s;
+    margin-bottom: 15px;
 }
 .portfolio__item-title:hover {
     color: rgb(207, 129, 28);
